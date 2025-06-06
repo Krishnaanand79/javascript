@@ -4,3 +4,5 @@ const product = {
     offer :5,
     price : 270,
 };
+
+console.log(product);
