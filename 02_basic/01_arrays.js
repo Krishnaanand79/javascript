@@ -31,7 +31,8 @@ const myn1 = myArray.slice(1,3)// last element is not included
 console.log(myn1);
 console.log("B" , myArray);
 
-const myn2 = myArray.splice(1,3)
+const myn2 = myArray.splice(1,3)// array is modified 
+
 console.log("c" , myArray);
 
 console.log(myn2);
