@@ -36,3 +36,24 @@ console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+// OBJECT DE - STRUCTURE  AND JSON API 
+
+const course = {
+    coursename: "js in hindi",
+    price :"657",
+    courseInstructor: "Krishna"
+}
+
+// console.log(course.courseInstructor)
+
+const {courseInstructor : instructor} = course // de structur of objects 
+
+// console.log(courseInstructor)
+console.log(instructor);
+
+// {
+//     "name " : "Krishna ",
+//     "coursename" :" js in hindi "
+//     "price" : "free"
+// }
