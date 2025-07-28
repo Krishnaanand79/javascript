@@ -25,6 +25,7 @@ jsUser.email = "krishna@.com" // change or replace the email
 // Object.freeze(jsUser)
 console.log(jsUser);
 
+// function declaration 
 jsUser.greeting = function(){
     console.log("Hello js user");
 }
