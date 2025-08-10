@@ -33,3 +33,5 @@ const myObject = {
 // for(const [key, value] of myObject){
 //     console.log(key , 'key',value);
 // }
+
+// for of loop is work on the maps but not on the objects 
